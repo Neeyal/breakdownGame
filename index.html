@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Germania+One">
+  <link rel="stylesheet" href="game.css">
+  <title>BreakOut Game</title>
+</head>
+<body>
+  <div class="tips">
+    <h1 id="heading">TIPS FOR YOU</h1>
+    <ul>
+      <li>"Use the left - right keys of the keyboard"</li>
+      <li>"You can disable or enable sound by clicking on sound button"</li>
+       <li>"Next level is may be tough for you"</li> 
+       <li>"At every miss your life will decrease"</li>
+    </ul>
+  </div>
+
+<!-- sound button -->
+    <div class="sound">
+        <img src="img/SOUND_ON.png" alt="" id="sound">
+    </div>
+
+<!-- game over message      -->
+    <div id="gameover">
+        <img src="img/youwon.png" alt="" id="youwon">
+        <img src="img/gameover.png" alt="" id="youlose">
+
+<!-- restart message        -->
+    <div id="restart">Play Again!</div>
+</div>
+ <!-- defining the game field  -->
+ <canvas id="breakOut" width="400" height="500"></canvas>
+    
+   
+     
+
+  <!-- adding main javascript  file  -->
+  <script src="breakout.js"></script>
+  
+</body>
+</html>
